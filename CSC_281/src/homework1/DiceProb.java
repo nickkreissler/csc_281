@@ -16,7 +16,7 @@ public class DiceProb {
 		// The rolling of the dice will be doing using a call to rollDice
 		// Don't duplicate that code in the main
 		for (int r = 2; r < 13; r++) {
-		while (z < 1000) {
+		while (z < rounds) {
 			x = rollDice();
 			if (x == r) {
 				z++;
