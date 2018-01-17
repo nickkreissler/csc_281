@@ -1,3 +1,6 @@
+//Nick Kreissler
+//Collaborators:0
+
 package homework1;
 
 public class DiceProb {
