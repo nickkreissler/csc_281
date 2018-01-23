@@ -6,6 +6,5 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry excluding="homework2/" kind="src" path="src"/>
-	<classpathentry kind="src" path="src/homework2"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
