@@ -1,9 +1,9 @@
-package homework;
+package homwork2;
 
 
 import java.util.Scanner;
 
-public class homework2 {
+public class hw2 {
 
 	public static void main(String[] args) {
 		try
