@@ -1,3 +1,7 @@
+//Nick Kreissler
+
+//Collaborators = 0
+
 package homwork2;
 
 
@@ -13,6 +17,15 @@ public class hw2 {
 			printArray(ages);
 			System.out.println("The number of ages >= 20: " + countValues(ages, 20));
 			System.out.println("The number of ages >= 50: " + countValues(ages, 50));
+			// A call that will cause problems for a non-empty, positive ages array
+			//System.out.println("The number of ages >= -1: " + countValues(ages, -1)); // line 1
+			// Two arrays that will cause problems -- put them into your code to test that
+			// the method that counts ages handles erroneous arrays correctly
+			// The line numbers are referenced in the assignment description
+			//int [] empty = new int[0]; // line 2
+			//System.out.println("The count for empty is: " + countValues(empty, 0)); // line 3
+			//int [] incorrect = {23, 8, -1}; // line 4
+			//System.out.println("The count for incorrect is: " + countValues(incorrect, 0)); // line 5
 		}
 		catch (IllegalArgumentException exception)
 		{
