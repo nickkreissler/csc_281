@@ -17,6 +17,11 @@ public class hw2 {
 			printArray(ages);
 			System.out.println("The number of ages >= 20: " + countValues(ages, 20));
 			System.out.println("The number of ages >= 50: " + countValues(ages, 50));
+			System.out.println("TEST:");
+			Scanner jon = new Scanner(System.in);
+			int fas = jon.nextInt();
+			System.out.println(fas);
+			jon.close();
 			// A call that will cause problems for a non-empty, positive ages array
 			//System.out.println("The number of ages >= -1: " + countValues(ages, -1)); // line 1
 			// Two arrays that will cause problems -- put them into your code to test that
